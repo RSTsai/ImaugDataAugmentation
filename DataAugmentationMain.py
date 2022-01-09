@@ -100,10 +100,10 @@ def DataAugmentationFlow(seq=None):
                 # iaa.Affine(scale={"x": (0.5, 1.5), "y": (0.5, 1.5)}),
 
 
-            #     iaa.Affine(rotate=(-45, 45)),
-            #     iaa.Flipud(0.3),
-            #     iaa.Fliplr(0.3),
-            #     iaa.Multiply((0.5, 1.5)) # 改變亮度, 不影響bounding box
+                # iaa.Affine(rotate=(-45, 45)),
+                # iaa.Flipud(0.3),
+                # iaa.Fliplr(0.3),
+                # iaa.Multiply((0.5, 1.5)) # 改變亮度, 不影響bounding box
             #  ])
 
             # Augmentation #2 (MixUp、頻率域雜訊) BlendAlphaFrequencyNoise
