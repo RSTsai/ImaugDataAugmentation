@@ -15,6 +15,7 @@ batchRunNum = 10
 </code></pre>
 
 
-Base on
+Base on imgaug
 https://github.com/aleju/imgaug
+
 ![64 quokkas](https://raw.githubusercontent.com/aleju/imgaug-doc/master/readme_images/examples_grid.jpg?raw=true "64 quokkas")
